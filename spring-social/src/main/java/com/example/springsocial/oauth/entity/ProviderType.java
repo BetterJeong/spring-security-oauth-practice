@@ -1,4 +1,9 @@
 package com.example.springsocial.oauth.entity;
 
-public class ProviderType {
+import lombok.Getter;
+
+@Getter
+public enum ProviderType {
+    GOOGLE,
+    KAKAO;
 }
